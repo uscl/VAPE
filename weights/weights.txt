@@ -1,0 +1,5 @@
+Used Pretrained models. For Superpoint and Lightglue 
+
+Superpoint: https://github.com/magicleap/SuperPointPretrainedNetwork
+
+Lightglue: https://github.com/cvg/LightGlue
