@@ -116,7 +116,7 @@ Unlike traditional pose estimation systems that suffer from vision latency, this
 
 ### 4. Adaptive Viewpoint Selection (Algorithm 1)
 ```python
-viewpoints = ['NE', 'NW', 'SE', 'SW', 'NE2', 'NW2', 'SE2', 'SW2']
+viewpoints = ['NE', 'NW', 'SE', 'SW', 'NE_d', 'NW_d', 'SE_d', 'SW_d']
 ```
 
 Each frame, the system selects the best viewpoint using a weighted score:
@@ -161,7 +161,7 @@ pip install scipy>=1.11.0
 ### Required Files
 
 1. **YOLO Model**: `best.pt` (trained aircraft detection model)
-2. **Anchor Images**: 8 viewpoint reference images (NE.png, NW.png, SE.png, SW.png, NE2.png, NW2.png, SE2.png, SW2.png)
+2. **Anchor Images**: 8 viewpoint reference images (NE.png, NW.png, SE.png, SW.png, NE_d.png, NW_d.png, SE_d.png, SW_d.png)
 3. **Input Video**: Your aircraft footage for processing
 
 ---
